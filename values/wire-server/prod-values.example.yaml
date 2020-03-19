@@ -214,6 +214,8 @@ team-settings:
       backendWebsocket: nginz-ssl.example.com
       backendDomain: example.com
       appHost: webapp.example.com
+  envVars:
+    WEBSITE_LABEL: www.example.com
 
 # NOTE: Only relevant if you want account-pages
 account-pages:
